@@ -1,0 +1,43 @@
+
+get http://localhost:5000/api/hello
+
+
+###
+get http://localhost:5000/api/stocks/KO
+
+
+####
+get http://localhost:5000/api/stockswithcountry/US
+
+
+
+
+
+
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OWVmNjA2OTFjNzI0Nzk0MjcxZjU5OCIsImlhdCI6MTczODQ3MTczMSwiZXhwIjoxNzM5MDc2NTMxfQ.A0cec7Yv7uErf5r9W2lqNvqXClY1LAx9VsIXTVlGVvk
+
+
+###
+
+get http://localhost:5000/api/all-stocks
+
+
+###
+post http://localhost:5000/api/register
+Content-Type: application/json
+
+{
+    "name":"Adithya",
+    "email":"adithya@gmail.com",
+    "password":"adithya@143"
+}
+###
+
+
+post http://localhost:5000/api/login
+Content-Type: application/json
+
+{
+    "email":"adithya@gmail.com",
+    "password":"adithya@143"
+}
