@@ -1,12 +1,12 @@
 
-# CRM Dashboard Project Documentation
+# CRM Dashboard Project 
 
 ## 1. Project Overview
 
 ### Project Name: CRM Dashboard
 
 ### Objective:
-The CRM Dashboard is a web-based application designed to help businesses efficiently track and manage customer relationships and important business data. The dashboard enables users to view stock market data in real-time, track financial trends, and access insights using charts and graphs. The system provides an intuitive user interface, secure authentication, and data fetching from external APIs.
+The CRM Dashboard is a web-based application designed to help businesses efficiently track and manage customer relationships and important business data. The dashboard enables users to view stock market data in real-time, track financial trends, and access insights using charts and graphs. The system provides an intuitive user interface, secure authentication, and data fetching from external APIs. Testing is also done using the Jest and selenium testing. where Jest is used to check the Fronted testing that gives the required Text and any important texts in the page and selenium is used to test the login page and automated taks.
 
 ### Technology Stack:
 - **Frontend**: React.js, Axios, Recharts (for data visualization)
